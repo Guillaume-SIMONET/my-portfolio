@@ -14,12 +14,13 @@
 <body style="padding-top: 56px;">
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color:#0d1b2a;">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color:#1b263b;">
     <div class="container d-flex justify-content-between">
       <a class="navbar-brand text-white" href="#">Guillaume SIMONET</a>
       <div>
         <a class="nav-link d-inline text-white me-4" href="#hero">Accueil</a>
         <a class="nav-link d-inline text-white me-4" href="#about">À propos de moi</a>
+        <a class="nav-link d-inline text-white me-4" href="#skills">Mes compétences</a>
         <a class="nav-link d-inline text-white me-4" href="#projects">Projets</a>
         <a class="nav-link d-inline text-white" href="#contact">Contact</a>
       </div>
@@ -28,7 +29,7 @@
 
   <!-- Hero -->
   <section id="hero" class="d-flex justify-content-center align-items-center text-center vh-100 text-white"
-    style="background-color:#0d1b2a;">
+    style="background-color:#1b263b;">
     <div>
       <h1 class="display-3">Bienvenue sur mon Portfolio</h1>
       <p class="lead mb-4">Ce site web a pour but de présenter mes projets réalisés au fil de mon parcours scolaire.</p>
@@ -56,7 +57,7 @@
     <h2 class="text-center mb-2">À propos de moi</h2>
     <div class="d-flex flex-column flex-md-row align-items-center justify-content-center">
       <div class="text-center mb-4 mb-md-0 me-md-4">
-        <img src="GuillaumeSIMONET.JPG" class="img-fluid rounded-circle"
+        <img src="GuillaumeSIMONET.jpg" class="img-fluid rounded-circle"
           style="width:250px; height:250px; object-fit:cover;" alt="Ma photo">
       </div>
       <div class="text-center text-md-start" style="max-width:600px;">
@@ -70,12 +71,19 @@
     </div>
   </section>
 
+  <div class="text-center">
+  <a href="CV.pdf" download class="btn" style="background-color:#1b263b; color:white; width:300px;">
+    <i class="bi bi-download me-2"></i> Télécharger mon CV
+  </a>
+</div>
+
+
   <!-- Coordonnées -->
-  <div class="text-center mt-4" style="font-size: 1.2rem; color: #0d1b2a;">
+  <div class="text-center mt-4" style="font-size: 1.2rem; color: #1b263b;">
     <span class="me-4">
       <i class="bi bi-envelope-fill me-1" style="font-size:1.4rem;"></i>
       <a href="mailto:guillaume.simonet@epitech.eu" class="text-decoration-none"
-        style="color: #0d1b2a;">guillaume.simonet@epitech.eu</a>
+        style="color: #1b263b;">guillaume.simonet@epitech.eu</a>
     </span>
     <span class="me-4">
       <i class="bi bi-telephone-fill me-1" style="font-size:1.4rem;"></i>
@@ -90,7 +98,7 @@
   <!-- Compétences Section -->
   <section id="skills" class="py-5 bg-light">
     <div class="container">
-      <h2 class="text-center mb-5">Mes Compétences</h2>
+      <h2 class="text-center mb-5">Mes compétences</h2>
       <div class="row g-4 justify-content-center">
 
         <!-- Compétence 1 -->
@@ -106,8 +114,8 @@
         <div class="col-md-6 mb-4">
           <h5 class="mb-2">JavaScript</h5>
           <div class="progress" style="height: 25px;">
-            <div class="progress-bar" role="progressbar" style="width: 60%; background-color:#3a7ca5;"
-              aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">60%</div>
+            <div class="progress-bar" role="progressbar" style="width: 55%; background-color:#3a7ca5;"
+              aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">55%</div>
           </div>
         </div>
 
@@ -124,8 +132,8 @@
         <div class="col-md-6 mt-4">
           <h5 class="mb-2">Git & GitHub</h5>
           <div class="progress" style="height: 25px;">
-            <div class="progress-bar" role="progressbar" style="width: 85%; background-color:#41729f;"
-              aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+            <div class="progress-bar" role="progressbar" style="width: 80%; background-color:#41729f;"
+              aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">80%</div>
           </div>
         </div>
 
@@ -139,7 +147,7 @@
       <h2 class="text-center mb-5">Mes Projets</h2>
       <div class="row g-4">
         <div class="col-md-4">
-          <a href="../Projet/Projet1.html" target="_blank" class="text-decoration-none text-dark">
+          <a href="../Projet/Projet1.php" target="_blank" class="text-decoration-none text-dark">
             <div class="card h-100 shadow-sm border-0" style="transition: transform 0.3s;"
               onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
               <img src="../Projet/Projet1.png" class="responsive-img" style="height:250px; object-fit:cover;">
@@ -152,7 +160,7 @@
         </div>
 
         <div class="col-md-4">
-          <a href="../Projet/Projet2.html" target="_blank" class="text-decoration-none text-dark">
+          <a href="../Projet/Projet2.php" target="_blank" class="text-decoration-none text-dark">
             <div class="card h-100 shadow-sm border-0" style="transition: transform 0.3s;"
               onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
               <img src="../Projet/Projet2.png" class="responsive-img" style="height:250px; object-fit:cover;">
@@ -165,7 +173,7 @@
         </div>
 
         <div class="col-md-4">
-          <a href="../Projet/Projet3.html" target="_blank" class="text-decoration-none text-dark">
+          <a href="../Projet/Projet3.php" target="_blank" class="text-decoration-none text-dark">
             <div class="card h-100 shadow-sm border-0" style="transition: transform 0.3s;"
               onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
               <img src="../Projet/Projet3.png" class="responsive-img" style="height:250px; object-fit:cover;">
@@ -178,7 +186,7 @@
         </div>
 
         <div class="col-md-4">
-          <a href="../Projet/Projet4.html" target="_blank" class="text-decoration-none text-dark">
+          <a href="../Projet/Projet4.php" target="_blank" class="text-decoration-none text-dark">
             <div class="card h-100 shadow-sm border-0" style="transition: transform 0.3s;"
               onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
               <img src="../Projet/Projet4.png" class="responsive-img" style="height:250px; object-fit:cover;">
@@ -191,7 +199,7 @@
         </div>
 
         <div class="col-md-4">
-          <a href="../Projet/Projet5.html" target="_blank" class="text-decoration-none text-dark">
+          <a href="../Projet/Projet5.php" target="_blank" class="text-decoration-none text-dark">
             <div class="card h-100 shadow-sm border-0" style="transition: transform 0.3s;"
               onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
               <img src="../Projet/Projet5.png" class="responsive-img" style="height:250px; object-fit:cover;">
@@ -204,7 +212,7 @@
         </div>
 
         <div class="col-md-4">
-          <a href="../Projet/Projet6.html" target="_blank" class="text-decoration-none text-dark">
+          <a href="../Projet/Projet6.php" target="_blank" class="text-decoration-none text-dark">
             <div class="card h-100 shadow-sm border-0" style="transition: transform 0.3s;"
               onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
               <img src="../Projet/Projet6.png" class="responsive-img" style="height:250px; object-fit:cover;">
@@ -222,19 +230,20 @@
 
   <!-- Contact Section -->
   <section id="contact" class="py-5 bg-light">
+
     <div class="container">
       <h2 class="text-center mb-5">Contactez-moi</h2>
       <input class="form-control mb-3" type="text" placeholder="Nom">
       <input class="form-control mb-3" type="email" placeholder="Email">
       <textarea class="form-control mb-3" rows="5" placeholder="Message"></textarea>
       <div class="text-center">
-        <button class="btn" style="background-color:#0d1b2a; color:white; width:300px;">Envoyer</button>
+        <button class="btn" style="background-color:#1b263b; color:white; width:300px;">Envoyer</button>
       </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="text-white text-center py-3" style="background-color:#0d1b2a;">
+  <footer class="text-white text-center py-3" style="background-color:#1b263b;">
     &copy; 2025 Mon Portfolio
   </footer>
 
